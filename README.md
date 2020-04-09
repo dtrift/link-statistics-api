@@ -18,7 +18,7 @@ POST
 
 GET
 
-    $ curl "http://localhost:7002/api/v1/visited_domains?fom=1586413932&to=1586414215"
+    $ curl "http://localhost:7002/api/v1/visited_domains?from=1586413932&to=1586414215"
 
 ## Contributing
 
