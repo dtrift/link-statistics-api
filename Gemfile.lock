@@ -9,6 +9,8 @@ GEM
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     redis (4.1.3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -37,6 +39,7 @@ PLATFORMS
 DEPENDENCIES
   foreman
   json
+  rack-test
   redis (~> 4.0)
   rspec
   sinatra (~> 2.0.8)
