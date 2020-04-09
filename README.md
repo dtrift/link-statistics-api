@@ -1,4 +1,4 @@
-# Links ststistics API
+# Links statistics API
 
 Simple tracking of visited links.
 
