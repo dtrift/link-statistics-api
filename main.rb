@@ -10,7 +10,7 @@ before do
 end
 
 get "/api/v1/visited_domains" do
-  return unless params[:from]
+  raise ArgumentError, 'Invalid params' unless params[:from]
 
   redis.zrangebyscore(
     "links",
